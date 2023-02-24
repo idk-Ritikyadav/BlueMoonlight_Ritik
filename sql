@@ -1,15 +1,16 @@
 
 
+First Run this: 
+
 
 CREATE DATABASE school;
 
 
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  email VARCHAR(255) NOT NULL,
-  username VARCHAR(255) NOT NULL,
-  password VARCHAR(255) NOT NULL
-);
+
+Then Click on the school database and run the below SQL 
+Query😊:
+Besure your MySQL password username and host name is default: 
+localhost, no password, root
 
 
 
@@ -42,5 +43,3 @@ CREATE TABLE posts (
   post_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   user_name VARCHAR(255) NOT NULL
 );
-id20330312_root
-id20330312_school
